@@ -1,0 +1,27 @@
+{
+  "name": "salz-js-conway",
+  "version": "0.0.0-never",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/performance.spec.js",
+    "test:watch": "jest --watch tests/performance.spec.js",
+    "test:game": "jest tests/game.spec.js",
+    "test:game:watch": "jest --watch tests/game.spec.js",
+    "test:all": "jest",
+    "test:all:watch": "jest --watch",
+    "lint": "eslint --fix-dry-run --ignore-path .gitignore",
+    "lint:fix": "eslint --fix --ignore-path .gitignore ."
+  },
+  "author": "",
+  "license": "BSD-3",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.4.0"
+  }
+}
